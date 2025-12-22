@@ -1,13 +1,30 @@
-dz1 start
-## Начало работы 1
-![alt-текст](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png "Схема к работе №1")
+dz1 start  
+**Задачи**  
+Часть 1. Проверка конфигурации коммутатора по умолчанию  
+Часть 2. Создание сети и настройка основных параметров устройства  
+• Настройте базовые параметры коммутатора.  
+• Настройте IP-адрес для ПК.  
+Часть 3. Проверка сетевых подключений  
+• Отобразите конфигурацию устройства.  
+• Протестируйте сквозное соединение, отправив эхо-запрос.  
+• Протестируйте возможности удаленного управления с помощью Telnet.  
+## Начало работы 1  
 
-https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png
+### Часть 1.  
+Создаём сеть согласно задания.  
+!["Схема к работе №1"](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png)  
+В начале подключен только консольный кабель, который включен к COM-port компьютера и в консольный порт на коммутаторе.  
+
+Предполагается что коммутатор Cisco 2960 новый, с заводскими настройками, поэтому подключение к нему возможно только по консольному кабелю, т.к. подключение по SSH или Telnet не активировано.
+
+
+
+
 
 [logo]: https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png "Схема к работе №1"
 
 ![Схема к работе №1](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png)  
 
-!["Схема к работе №1"](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png)  
+
   
-![](pic1.png)
+
