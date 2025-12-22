@@ -1,5 +1,3 @@
-dz1 start  
-**Задачи**  
 Часть 1. Проверка конфигурации коммутатора по умолчанию  
 Часть 2. Создание сети и настройка основных параметров устройства  
 • Настройте базовые параметры коммутатора.  
@@ -12,7 +10,7 @@ dz1 start
 
 ### Часть 1.  
 Создаём сеть согласно задания.  
-!["Схема к работе №1"](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png)  
+!["Схема к работе №1"](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pics/pic1.png?raw=true)  
 В начале подключен только консольный кабель, который включен к COM-port компьютера и в консольный порт на коммутаторе.  
 
 Предполагается что коммутатор Cisco 2960 новый, с заводскими настройками, поэтому подключение к нему возможно только по консольному кабелю, т.к. подключение по SSH или Telnet не активировано.
@@ -21,9 +19,6 @@ dz1 start
 
 
 
-[logo]: https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png "Схема к работе №1"
-
-![Схема к работе №1](https://github.com/AlexShStd/OTUS-NetworkBasic/blob/main/labs/pic1.png)  
 
 
   
