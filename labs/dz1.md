@@ -49,6 +49,13 @@ MAC-адрес у интерфейса 00e0.f949.ac06 (bia 00e0.f949.ac06)
 Чтобы посмотреть содержимое флеш-памяти нужно ввести команду **show flash**  
 Выведется содержимое, в котором указано, что образу Cisco IOS присвоено имя **2960-lanbasek9-mz.150-2.SE4.bin**
 
-### Часть 2.  2
-
-
+### Часть 2. Настройка базовых параметров сетевых устройств
+Для базовой настройки нужно ввести следующие команды в резиме глобальной конфигурации:  
+```
+no ip domain-lookup
+hostname S1
+service password-encryption
+enable secret class
+banner motd #
+Unauthorized access is strictly prohibited. #
+```  
